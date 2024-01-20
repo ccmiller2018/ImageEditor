@@ -1,0 +1,19 @@
+{
+    "name": "ccmiller2018/image-editor",
+    "description": "An Image Editor for PHP",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ccmiller2018\\ImageEditor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christopher Miller"
+        }
+    ],
+    "require": {
+        "ext-gd": "*"
+    }
+}
